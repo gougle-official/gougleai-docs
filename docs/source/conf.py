@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Gougle AI API'
+copyright = '2024, Gougle AI LLC'
+author = 'Gougle AI LLC'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0.5.5'
+version = '1.0.5.5'
 
 # -- General configuration
 

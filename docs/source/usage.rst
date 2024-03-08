@@ -1,34 +1,40 @@
-Usage
-=====
-
-.. _installation:
+Usages
+======
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+For ``python`` using ``pip`` in ``cmd``:
 
-.. code-block:: console
+.. code-block:: shell
+	pip install gougleai
 
-   (.venv) $ pip install lumache
+Models
+------
 
-Creating recipes
-----------------
++------------------+--------------------------------+-------------------------------------+
+| Model Name       | Model ID                       | Model Type                          |
++==================+================================+=====================================+
+| GLT-1            | ``gougleai.models.glt.glt1``   | Chat Completion and Text Completion |
++------------------+--------------------------------+-------------------------------------+
+| GLT-1.0.5 Beta   | ``gougleai.models.glt.glt105`` | Chat Completion and Text Completion |
++------------------+--------------------------------+-------------------------------------+
+| GIC-1            | ``gougleai.models.gic.gic1``   | Image Generation                    |
++------------------+--------------------------------+-------------------------------------+
+| GIC-1.0.5 Beta   | ``gougleai.models.gic.gic105`` | Image Generation                    |
++------------------+--------------------------------+-------------------------------------+
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Example
+-------
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: python
+	import gougleai
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+	gougleai.apiKey = "YOUR_API_KEY_HERE"
 
-.. autoexception:: lumache.InvalidKindError
+	while True:
+		userInput = input("User: ")
 
-For example:
+		response = gougleai.complete(model=gougleai.models.glt.glt1, prompt=userInput, maxTokenNumber=100)
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+		print("GLT-1: " + response.choices[0])

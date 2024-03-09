@@ -1,6 +1,8 @@
 ``gougleai.chat.complete()``
 =============================
 
+*Not to be confused with *:doc:```gougleai.complete()`` <complete>`*.*
+
 .. code-block::
 
    gougleai.chat.complete(model, chatHistory: object, maxTokenNumber: int = 100) -> { choices[str] }

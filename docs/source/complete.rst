@@ -11,7 +11,7 @@ It interacts with the Gougle AI API to generate text completions.
 Parameters
 ----------
 
-* ``model``: The name of the :ref:`model </models>` to use.
+* ``model``: The name of the :ref:`model <usage/models>` to use.
 .. note::
 	Only :guilabel:`Text Completion` models allowed for ``gougleai.complete()``.
 * ``prompt: str``: The text prompt for the model.

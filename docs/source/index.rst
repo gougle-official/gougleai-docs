@@ -7,7 +7,7 @@ It pulls data from the `Gougle AI services <https://ai.withgougle.cf/>`_
 and offers a *simple* and *intuitive* API.
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`install <usage:installation>` the project.
+how to :ref:`install <usage:installation>`_ the project.
 
 .. note::
    This project is under active development.

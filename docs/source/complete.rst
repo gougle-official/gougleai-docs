@@ -7,7 +7,7 @@ It interacts with the Gougle AI API to generate text completions.
 Parameters
 ----------
 
-* ``model``: The name of the :ref:`model <models>` to use.
+* ``model``: The name of the :ref:`model </models>` to use.
 .. note::
 	Only |Text Completion| models allowed for ``gougleai.complete()``.
 * ``prompt: str``: The text prompt for the model.
@@ -23,7 +23,7 @@ Usage Examples
 
 Here is an example of an AI that try to generate Python code about a given idea:
 .. code-block:: python
-	
+
 	import gougleai
 
 	gougleai.apiKey = "YOUR_API_KEY"

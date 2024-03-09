@@ -2,6 +2,10 @@ Gougle AI API − Docs
 ======================
 The Gougle AI API include Gougle AI models.
 
+.. image:: https://readthedocs.org/projects/gougleai-docs/badge/?version=latest
+    :target: https://gougleai-docs.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
 Models
 ------
 +----------------+--------------------------------+-------------------------------------+

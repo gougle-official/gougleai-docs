@@ -18,3 +18,4 @@ Contents
 .. toctree::
    usage
    complete
+   chat/complete

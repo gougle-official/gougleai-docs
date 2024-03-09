@@ -1,7 +1,8 @@
 ``gougleai.complete()``
 ====================================================================
 
-.. code-block:: 
+.. code-block::
+
 	gougleai.complete(model, prompt: str, maxTokenNumber: int = 100) -> { choices[str] }
 
 ``gougleai.complete()`` is a function to get an API response from a prompt to a model with a max token number.
@@ -27,6 +28,7 @@ Usage Examples
 Here is an example of an AI that try to generate Python code about a given idea:
 
 .. code-block:: python
+
 	import gougleai
 
 	gougleai.apiKey = "YOUR_API_KEY"

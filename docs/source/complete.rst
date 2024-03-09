@@ -23,6 +23,7 @@ Usage Examples
 
 Here is an example of an AI that try to generate Python code about a given idea:
 .. code-block:: python
+	
 	import gougleai
 
 	gougleai.apiKey = "YOUR_API_KEY"

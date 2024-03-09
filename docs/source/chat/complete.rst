@@ -29,7 +29,7 @@ the generated text completions for the chat response.
 **Usage Examples**
 ----------------
 
-Here's an example of how `gougleai.chat.complete()` might be used to 
+Here's an example of how ``gougleai.chat.complete()`` might be used to 
 create a simple chatbot:
 
 .. code-block:: python

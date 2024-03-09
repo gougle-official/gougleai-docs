@@ -9,7 +9,7 @@ Parameters
 
 * ``model``: The name of the :ref:`model </models>` to use.
 .. note::
-	Only |Text Completion| models allowed for ``gougleai.complete()``.
+	Only :guilabel:`Text Completion` models allowed for ``gougleai.complete()``.
 * ``prompt: str``: The text prompt for the model.
 * ``maxTokenNumber: int = 100``: The maximum number of tokens (words) to generate in the response (defaults to 100).
 

@@ -3,7 +3,7 @@
 
 .. code-block::
 
-	gougleai.models.glt: class { glt1, glt105, versions[] }
+    gougleai.models.glt: class { glt1, glt105, versions[] }
 
 ``gougleai.models.glt`` is the class of the models familiy of GLT. GLT (**G**ougle **L**anguage **T**ransformer) models are :guilabel:`Text Completion` and :guilabel:`Chat Completion` models, that means that these models can be used with both ``gougleai.complete()`` and ``gougleai.chat.complete()``.
 
@@ -35,7 +35,7 @@ To make it by this way, we just need to follow the 'class path':
 .. code-block::
 
 	gougleai  .  models  .  glt  .  glt1
-		↑          ↑         ↑       ↑
+	    ↑          ↑         ↑       ↑
 	  module    primary    model   model
 	             class    family   name
 
@@ -51,10 +51,10 @@ So, to acces to GLT-1.0.5 Beta by this way, we can use this:
 .. code-block::
 
 	gougleai  .  models  .  glt  .  versions  [  1  ]
-		↑          ↑         ↑         ↑         ↑   
+	    ↑          ↑         ↑         ↑         ↑   
 	  module    primary    model     model    model's   
 	             class    family    versions  version
-				                               code
-				                              number   
+	                                           code
+	                                          number   
 
 So by this way, we can acces to GLT-1.0.5 Beta by its version code number.

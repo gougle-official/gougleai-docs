@@ -3,7 +3,7 @@
 
 .. code-block::
 
-	gougleai.models.gic: class { gic1, gic105, versions[] }
+    gougleai.models.gic: class { gic1, gic105, versions[] }
 
 ``gougleai.models.gic`` is the class of the models familiy of GIC. GIC (**G**ougle **I**mage **C**reator) models are :guilabel:`Image Generation` models, that means that these models can be used with no module's function right now.
 
@@ -35,7 +35,7 @@ To make it by this way, we just need to follow the 'class path':
 .. code-block::
 
 	gougleai  .  models  .  gic  .  gic1
-		↑          ↑         ↑       ↑
+	    ↑          ↑         ↑       ↑
 	  module    primary    model   model
 	             class    family   name
 
@@ -51,10 +51,10 @@ So, to acces to GIC-1.0.5 Beta by this way, we can use this:
 .. code-block::
 
 	gougleai  .  models  .  gic  .  versions  [  1  ]
-		↑          ↑         ↑         ↑         ↑   
+	    ↑          ↑         ↑         ↑         ↑   
 	  module    primary    model     model    model's   
 	             class    family    versions  version
-				                               code
-				                              number   
+	                                           code
+	                                          number   
 
 So by this way, we can acces to GIC-1.0.5 Beta by its version code number.

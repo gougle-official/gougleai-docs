@@ -7,6 +7,9 @@
 
 ``gougleai.models.glt`` is the class of the models familiy of GLT. GLT (**G**ougle **L**anguage **T**ransformer) models are :guilabel:`Text Completion` and :guilabel:`Chat Completion` models, that means that these models can be used with both ``gougleai.complete()`` and ``gougleai.chat.complete()``.
 
+.. warning::
+	Class names are case sensitive: ``GLT`` ≠ ``glt``
+
 Included models
 ---------------
 

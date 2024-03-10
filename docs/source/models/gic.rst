@@ -7,6 +7,9 @@
 
 ``gougleai.models.gic`` is the class of the models familiy of GIC. GIC (**G**ougle **I**mage **C**reator) models are :guilabel:`Image Generation` models, that means that these models can be used with no module's function right now.
 
+.. warning::
+	Class names are case sensitive: ``GIC`` ≠ ``gic``
+
 Included models
 ---------------
 

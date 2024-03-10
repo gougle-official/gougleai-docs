@@ -33,7 +33,7 @@ Here's how to set your API Key:
 
 	gougleai.apiKey = "YOUR_API_KEY"
 
-Replace `"YOUR_API_KEY"` with your actual API Key.
+Replace ``YOUR_API_KEY`` with your actual API Key.
 
 .. warning::
 	Setting an empty string to `gougleai.apiKey` will raise an exception.
@@ -68,4 +68,4 @@ Here's how to set your Organization ID:
 
 	gougleai.orgId = "YOUR_ORG_ID"
 
-Replace `"YOUR_ORG_ID"` with your actual organization ID.
+Replace ``YOUR_ORG_ID`` with your actual organization ID.

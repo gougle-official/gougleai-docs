@@ -19,3 +19,7 @@ Contents
    usage
    complete
    chat/complete
+   models
+   models/list
+   models/glt
+   models/gic

@@ -1,13 +1,14 @@
 ``gougleai.complete()``
 =======================
 
-*Not to be confused with *:doc:```gougleai.chat.complete()`` <chat/complete>`*.*
+*Not to be confused with *:doc:`~``gougleai.chat.complete()``~ <chat/complete>`*.*
 
 .. code-block::
 
 	gougleai.complete(model, prompt: str, maxTokenNumber: int = 100) -> { choices[str] }
 
-``gougleai.complete()`` is a function to get an API response from a prompt to a model with a max token number.
+``gougleai.complete()`` is a fu
+*Not to be confused with *:doc:```gougleai.complete()`` <complete>`*.*nction to get an API response from a prompt to a model with a max token number.
 It interacts with the Gougle AI API to generate text completions.
 
 Parameters

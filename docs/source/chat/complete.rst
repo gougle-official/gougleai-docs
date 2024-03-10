@@ -19,8 +19,8 @@ and a specified model with a maximum token number.
 ----------
 
 * ``model``: The name of the :ref:`model <usage:models>` to use.
-.. note::
-     Only :guilabel:`Chat Completion` models allowed for ``gougleai.chat.complete()``.
+	.. note::
+		Only :guilabel:`Chat Completion` models allowed for ``gougleai.chat.complete()``.
 * ``chatHistory: object``: A dictionary containing the chat history information. This dictionary should have the following keys:
     * ``role: str``: The role of the message sender (``ai``, ``system``, or ``user``).
     * ``message: str``: The message content of the previous turn.

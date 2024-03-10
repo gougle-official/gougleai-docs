@@ -1,7 +1,8 @@
 ``gougleai.chat.complete()``
 =============================
 
-*Not to be confused with *:doc:```gougleai.complete()`` <complete>`*.*
+.. warning::
+	*Not to be confused with *:doc:```gougleai.complete()`` <complete>`*.*
 
 .. code-block::
 

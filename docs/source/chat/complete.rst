@@ -24,6 +24,8 @@ and a specified model with a maximum token number.
 * ``chatHistory: object``: A dictionary containing the chat history information. This dictionary should have the following keys:
     * ``role: str``: The role of the message sender (``ai``, ``system``, or ``user``).
     * ``message: str``: The message content of the previous turn.
+	.. note::
+		``chatHistory`` contains only ``role`` and ``message`` for now, but it will change in few times.
 * ``maxTokenNumber: int = 100``: The maximum number of tokens (~words) to generate in the response (defaults to 100).
 
 **Returned value**

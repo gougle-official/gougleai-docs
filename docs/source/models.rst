@@ -32,6 +32,8 @@ Contains the list of models, here is the value:
 	GIC-1: gougleai.models.gic.gic1 (gougleai.models.gic.versions[0])
 	GIC-1.0.5 Beta: gougleai.models.gic.gic105 (gougleai.models.gic.versions[1])
 
+A models list can be found otherwhere in the documentation, like in the :doc:`usage` page.
+
 Models families
 ---------------
 

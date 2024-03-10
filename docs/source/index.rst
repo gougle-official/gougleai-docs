@@ -17,6 +17,7 @@ Contents
 
 .. toctree::
    usage
+   api-access
    complete
    chat/complete
    models

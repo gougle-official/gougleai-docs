@@ -12,6 +12,9 @@
 *Not to be confused with *:doc:```gougleai.complete()`` <complete>`*.*nction to get an API response from a prompt to a model with a max token number.
 It interacts with the Gougle AI API to generate text completions.
 
+.. note::
+	Because of some technical issues with the Gougle AI API services, this use temporarly the `OpenAI API <https://platform.openai.com>`_.
+
 Parameters
 ----------
 

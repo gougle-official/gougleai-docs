@@ -12,6 +12,9 @@ how to :ref:`install <usage:installation>` the project.
 .. note::
    This project is under active development.
 
+.. note::
+	Because of some technical issues with the Gougle AI API services, this library use temporarly the `OpenAI API <https://platform.openai.com>`_.
+
 Contents
 --------
 

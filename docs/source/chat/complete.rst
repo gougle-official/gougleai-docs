@@ -12,6 +12,9 @@
 It interacts with the Gougle AI API to generate responses based on a chat history 
 and a specified model with a maximum token number.
 
+.. note::
+	Because of some technical issues with the Gougle AI API services, this use temporarly the `OpenAI API <https://platform.openai.com>`_.
+
 **Parameters**
 ----------
 

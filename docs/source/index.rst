@@ -20,6 +20,5 @@ Contents
    complete
    chat/complete
    models
-   models/list
-   models/glt
-   models/gic
+..    models/glt
+..    models/gic

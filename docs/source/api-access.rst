@@ -24,7 +24,7 @@ Then, you'll need to provide you email and your password, then you will have a v
 Using the API Key
 ~~~~~~~~~~~~~~~~~
 
-The Gougle AI library utilizes your API Key for authentication purposes whenever you call functions that interact with the Gougle AI services. Internally, the library stores the API Key in the `gougleai.apiKey` variable. 
+The Gougle AI library utilizes your API Key for authentication purposes whenever you call functions that interact with the Gougle AI services. Internally, the library stores the API Key in the ``gougleai.apiKey`` variable. 
 
 Here's how to set your API Key:
 
@@ -36,7 +36,7 @@ Here's how to set your API Key:
 Replace ``YOUR_API_KEY`` with your actual API Key.
 
 .. warning::
-	Setting an empty string to `gougleai.apiKey` will raise an exception.
+	Setting an empty string to ``gougleai.apiKey`` will raise an exception.
 
 ``gougleai.orgId``
 ------------------
@@ -59,7 +59,7 @@ Then, you'll need to provide you email and your password, then you will have a v
 Using the Organization ID
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Gougle AI library utilizes your Organization ID for authentication purposes whenever you call some functions that interact with some Gougle AI services. Internally, the library stores the Organization ID in the `gougleai.orgId` variable. 
+The Gougle AI library utilizes your Organization ID for authentication purposes whenever you call some functions that interact with some Gougle AI services. Internally, the library stores the Organization ID in the ``gougleai.orgId`` variable. 
 
 Here's how to set your Organization ID:
 

@@ -2,7 +2,7 @@
 =============================
 
 .. warning::
-	*Not to be confused with * :doc:```gougleai.complete()`` <complete>` *.*
+	*Not to be confused with :meth:`gougleai.complete() <complete>`.*
 
 .. code-block::
 

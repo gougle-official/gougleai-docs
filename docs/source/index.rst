@@ -21,8 +21,8 @@ Contents
 .. toctree::
    usage
    api-access
-   complete
-   chat/complete
    models
    models/glt
    models/gic
+   complete
+   chat/complete
